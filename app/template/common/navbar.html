@@ -17,7 +17,7 @@
 				if(substr(LNG('kod_name'),0,4) == '<img'){
 					$html .= LNG('kod_name').'</a>';
 				}else{
-					$html .= '<i class="icon-cloud"></i>'.LNG('kod_name').'</a>';
+					$html .= '<i class="icon-cloud"></i>&nbsp;&nbsp;'.LNG('kod_name').'</a>';
 				}
 				foreach ($config['settingSystem']['menu'] as $key=>$value) {
 					if ($value['use']!='1') continue;

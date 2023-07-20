@@ -175,8 +175,7 @@ input:focus {border-color: #75A1F0; outline: none; box-shadow: 0 0 12px #75A1F0;
 .forget-password:hover{color:#03A9F4;}
 
 .msg{color:#f44336;text-align: center;margin-bottom: -10px;padding-top: 10px;font-size:14px;}
-.common-footer{color:#eee;position: absolute;bottom:0px;text-align: center;width: 100%;
-	background:#444;background: rgba(0,0,0,0.2);padding: 10px;
+.common-footer{color:#eee;position: absolute;bottom:0px;text-align: center;width: 100%;padding: 10px;
 }
 .common-footer a:hover{color:#fff;}
 
@@ -218,7 +217,7 @@ div .actions #submit{
 
 
 .menu-group{
-	position: absolute;top:5px;left:5px;
+	position: absolute;left:40%;
 	font-weight: 400;
 }
 .menu-group a i.font-icon{padding-right:5px;}
@@ -527,7 +526,7 @@ body div.dialog-simple .aui-close:active {
 .dialog-copyright .dialog-copyright-content .content div{text-align: center;padding-bottom: 5px;}
 
 
-
+.common_footer{display:none;}
 /* 
 .title {background: rgba(0,0,0,0.5);}
 .form {background: rgba(0,0,0,0.3);}

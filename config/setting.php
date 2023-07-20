@@ -53,7 +53,7 @@ $config['defaultPlugins'] = array(
 $config['settingSystemDefault'] = array(
 	'systemPassword'	=> rand_string(20),
 	'systemName'		=> "KodExplorer",
-	'systemDesc'		=> "——可道云.资源管理器",
+	'systemDesc'		=> "",
 	'pathHidden'		=> "Thumb.db,.DS_Store,.gitignore,.git",//目录列表隐藏的项
 	'autoLogin'			=> "0",			// 是否自动登录；登录用户为guest
 	'needCheckCode'		=> "0",			// 登陆是否开启验证码；默认关闭
@@ -73,7 +73,7 @@ $config['settingSystemDefault'] = array(
 	'currentVersion'	=> KOD_VERSION,
 
 	'wallpageDesktop'	=> "1,2,3,4,5,6,7,8,9,10,11,12,13",
-	'wallpageLogin'		=> "2,3,6,8,9,11,12",
+	'wallpageLogin'		=> "2,3,6,8,9,11,12,background",
 );
 //初始化默认菜单配置
 $config['settingSystemDefault']['menu'] = array(

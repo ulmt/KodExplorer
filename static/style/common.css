@@ -471,4 +471,7 @@ div.btn-group-sm > .btn {padding:6px 10px;}
 	-webkit-animation-name: fadeOutDown;
 	animation-name:fadeOutDown;
 }
+.old_common_footer {
+    display:none !important;
+}
 /* http://daneden.github.io/animate.css/ */
